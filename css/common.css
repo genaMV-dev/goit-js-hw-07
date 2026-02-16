@@ -38,3 +38,17 @@ li{
 .item h2 {
   margin-left: 40px;
 }
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px 24px; 
+  padding: 0;
+  margin: 0;
+  width: 408px;
+}
+
+.gallery img{
+  width: 360px;
+  height: 300px;
+}
