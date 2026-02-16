@@ -38,5 +38,5 @@ function imagesTemplate(images){
 }
 
 const markup = imagesTemplate(images)
-gallery.insertAdjacentHTML("beforeend" ,markup);
+gallery.insertAdjacentHTML("beforeend" , markup);
 
