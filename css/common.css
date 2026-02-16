@@ -17,18 +17,24 @@ li{
   list-style: none;
 }
 
-.list-points-animal, .list-points-products, .list-points-technologies{
+.item ul{
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.item h2{
-  margin-left: 40px;
+.item ul li{
+  width: 360px;
+  height: 40px;
+  border: 1px solid #212121;
+  padding: 8px 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
 }
 
-.list-points-animal li, .list-points-products li, .list-points-technologies li{
-  padding: 8px 16px;
-  width: 340px;
-  border: 1px solid black;
+.item h2 {
+  margin-left: 40px;
 }
