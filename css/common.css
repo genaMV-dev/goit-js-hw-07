@@ -11,6 +11,8 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
 }
 
 li{
@@ -102,5 +104,36 @@ input{
   color: #fff;
   border: none;
   margin-top: 16px;
+  cursor: pointer;
+}
+
+.widget{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.widget p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
   cursor: pointer;
 }
